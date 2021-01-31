@@ -1,9 +1,9 @@
 [
   {
     "id": "connected_gloves_fsurvivor",
-	"type": "ARMOR",
-	"copy-from": "gloves_fsurvivor",
-	"looks_like": "gloves_fsurvivor",
+    "type": "ARMOR",
+    "copy-from": "gloves_fsurvivor",
+    "looks_like": "gloves_fsurvivor",
     "name": { "str": "pair of connected survivor firegloves", "str_pl": "pairs of connected survivor firegloves" },
     "description": "A pair of customized, Kevlar armored Nomex gloves, modified to be easy to wear while providing maximum protection under extreme conditions. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -16,8 +16,8 @@
   },
   {
     "id": "connected_gloves_fsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_fsurvivor",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_fsurvivor",
     "name": { "str": "pair of connected survivor firegloves (off)", "str_pl": "pairs of connected survivor firegloves (off)" },
     "use_action": {
       "type": "transform",
@@ -26,19 +26,19 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
   {
     "id": "connected_xl_gloves_fsurvivor",
-	"type": "ARMOR",
+    "type": "ARMOR",
     "copy-from": "connected_gloves_fsurvivor",
-	"name": { "str": "pair of connected XL survivor firegloves", "str_pl": "pairs of connected XL survivor firegloves" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
-	"extend": { "flags": [ "OVERSIZE" ] },
+    "name": { "str": "pair of connected XL survivor firegloves", "str_pl": "pairs of connected XL survivor firegloves" },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
+    "extend": { "flags": [ "OVERSIZE" ] },
     "use_action": {
       "type": "transform",
       "msg": "You take the gloves off.",
@@ -49,10 +49,10 @@
   },
   {
     "id": "connected_xl_gloves_fsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_fsurvivor_off",
-	"name": { "str": "pair of connected XL survivor firegloves (off)", "str_pl": "pairs of connected XL survivor firegloves (off)" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_fsurvivor_off",
+    "name": { "str": "pair of connected XL survivor firegloves (off)", "str_pl": "pairs of connected XL survivor firegloves (off)" },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
     "use_action": {
       "type": "transform",
       "msg": "You put the gloves on.",
@@ -61,12 +61,11 @@
       "need_worn": true
     }
   },
-
   {
     "id": "connected_gloves_fur",
-	"type": "ARMOR",
-	"copy-from": "gloves_fur",
-	"looks_like": "gloves_fur",
+    "type": "ARMOR",
+    "copy-from": "gloves_fur",
+    "looks_like": "gloves_fur",
     "name": { "str": "pair of connected fur gloves", "str_pl": "pairs of connected fur gloves" },
     "description": "A pair of warm fur gloves.  They are somewhat cumbersome. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -79,8 +78,8 @@
   },
   {
     "id": "connected_gloves_fur_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_fur",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_fur",
     "name": { "str": "pair of connected fur gloves (off)", "str_pl": "pairs of connected fur gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -89,18 +88,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_gloves_hsurvivor",
-	"type": "ARMOR",
-	"copy-from": "gloves_hsurvivor",
-	"looks_like": "gloves_hsurvivor",
+    "type": "ARMOR",
+    "copy-from": "gloves_hsurvivor",
+    "looks_like": "gloves_hsurvivor",
     "name": { "str": "pair of connected heavy survivor gloves", "str_pl": "pairs of connected heavy survivor gloves" },
     "description": "A pair of heavily customized, steel-backed armored Kevlar gloves, modified to be easy to wear while providing maximum protection under extreme conditions. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -113,8 +111,8 @@
   },
   {
     "id": "connected_gloves_hsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_hsurvivor",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_hsurvivor",
     "name": { "str": "pair of connected heavy survivor gloves (off)", "str_pl": "pairs of connected heavy survivor gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -123,19 +121,19 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
   {
     "id": "connected_xl_gloves_hsurvivor",
-	"type": "ARMOR",
+    "type": "ARMOR",
     "copy-from": "connected_gloves_hsurvivor",
-	"name": { "str": "pair of connected XL heavy survivor gloves", "str_pl": "pairs of connected XL heavy survivor gloves" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
-	"extend": { "flags": [ "OVERSIZE" ] },
+    "name": { "str": "pair of connected XL heavy survivor gloves", "str_pl": "pairs of connected XL heavy survivor gloves" },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
+    "extend": { "flags": [ "OVERSIZE" ] },
     "use_action": {
       "type": "transform",
       "msg": "You take the gloves off.",
@@ -146,10 +144,13 @@
   },
   {
     "id": "connected_xl_gloves_hsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_hsurvivor_off",
-	"name": { "str": "pair of connected XL heavy survivor gloves (off)", "str_pl": "pairs of connected XL heavy survivor gloves (off)" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_hsurvivor_off",
+    "name": {
+      "str": "pair of connected XL heavy survivor gloves (off)",
+      "str_pl": "pairs of connected XL heavy survivor gloves (off)"
+    },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
     "use_action": {
       "type": "transform",
       "msg": "You put the gloves on.",
@@ -158,12 +159,11 @@
       "need_worn": true
     }
   },
-  
   {
     "id": "connected_gloves_lsurvivor",
-	"type": "ARMOR",
-	"copy-from": "gloves_lsurvivor",
-	"looks_like": "gloves_lsurvivor",
+    "type": "ARMOR",
+    "copy-from": "gloves_lsurvivor",
+    "looks_like": "gloves_lsurvivor",
     "name": { "str": "pair of connected light survivor gloves", "str_pl": "pairs of connected light survivor gloves" },
     "description": "A pair of customized, Kevlar armored cloth gloves, modified to be easy to wear while providing maximum protection under extreme conditions. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -176,8 +176,8 @@
   },
   {
     "id": "connected_gloves_lsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_lsurvivor",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_lsurvivor",
     "name": { "str": "pair of connected light survivor gloves (off)", "str_pl": "pairs of connected light survivor gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -186,19 +186,19 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
   {
     "id": "connected_xl_gloves_lsurvivor",
-	"type": "ARMOR",
+    "type": "ARMOR",
     "copy-from": "connected_gloves_lsurvivor",
-	"name": { "str": "pair of connected XL light survivor gloves", "str_pl": "pairs of connected XL light survivor gloves" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
-	"extend": { "flags": [ "OVERSIZE" ] },
+    "name": { "str": "pair of connected XL light survivor gloves", "str_pl": "pairs of connected XL light survivor gloves" },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
+    "extend": { "flags": [ "OVERSIZE" ] },
     "use_action": {
       "type": "transform",
       "msg": "You take the gloves off.",
@@ -209,10 +209,13 @@
   },
   {
     "id": "connected_xl_gloves_lsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_lsurvivor_off",
-	"name": { "str": "pair of connected XL light survivor gloves (off)", "str_pl": "pairs of connected XL light survivor gloves (off)" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_lsurvivor_off",
+    "name": {
+      "str": "pair of connected XL light survivor gloves (off)",
+      "str_pl": "pairs of connected XL light survivor gloves (off)"
+    },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
     "use_action": {
       "type": "transform",
       "msg": "You put the gloves on.",
@@ -221,12 +224,11 @@
       "need_worn": true
     }
   },
-  
   {
     "id": "connected_gloves_rubber",
-	"type": "ARMOR",
-	"copy-from": "gloves_rubber",
-	"looks_like": "gloves_rubber",
+    "type": "ARMOR",
+    "copy-from": "gloves_rubber",
+    "looks_like": "gloves_rubber",
     "name": { "str": "pair of connected rubber gloves", "str_pl": "pairs of connected rubber gloves" },
     "description": "A pair of rubber gloves, often used while cleaning with caustic materials. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -239,8 +241,8 @@
   },
   {
     "id": "connected_gloves_rubber_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_rubber",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_rubber",
     "name": { "str": "pair of connected rubber gloves (off)", "str_pl": "pairs of connected rubber gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -249,18 +251,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_gloves_survivor",
-	"type": "ARMOR",
-	"copy-from": "gloves_survivor",
-	"looks_like": "gloves_survivor",
+    "type": "ARMOR",
+    "copy-from": "gloves_survivor",
+    "looks_like": "gloves_survivor",
     "name": { "str": "pair of connected survivor gloves", "str_pl": "pairs of connected survivor gloves" },
     "description": "A pair of customized, Kevlar armored leather gloves, modified to be easy to wear while providing maximum protection under extreme conditions. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -273,8 +274,8 @@
   },
   {
     "id": "connected_gloves_survivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_survivor",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_survivor",
     "name": { "str": "pair of connected survivor gloves (off)", "str_pl": "pairs of connected survivor gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -283,18 +284,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-
   {
     "id": "connected_gloves_tactical",
-	"type": "ARMOR",
-	"copy-from": "gloves_tactical",
-	"looks_like": "gloves_tactical",
+    "type": "ARMOR",
+    "copy-from": "gloves_tactical",
+    "looks_like": "gloves_tactical",
     "name": { "str": "pair of connected tactical gloves", "str_pl": "pairs of connected tactical gloves" },
     "description": "A pair of flame and cut resistant aramid fabric gloves.  Commonly used by police and military units. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -307,8 +307,8 @@
   },
   {
     "id": "connected_gloves_tactical_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_tactical",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_tactical",
     "name": { "str": "pair of connected tactical gloves (off)", "str_pl": "pairs of connected tactical gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -317,18 +317,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_gloves_winter",
-	"type": "ARMOR",
-	"copy-from": "gloves_winter",
-	"looks_like": "gloves_winter",
+    "type": "ARMOR",
+    "copy-from": "gloves_winter",
+    "looks_like": "gloves_winter",
     "name": { "str": "pair of connected winter gloves", "str_pl": "pairs of connected winter gloves" },
     "description": "A pair of padded gloves.  Cumbersome, but warm. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -341,8 +340,8 @@
   },
   {
     "id": "connected_gloves_winter_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_winter",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_winter",
     "name": { "str": "pair of connected winter gloves (off)", "str_pl": "pairs of connected winter gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -351,18 +350,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_gloves_wool",
-	"type": "ARMOR",
-	"copy-from": "gloves_wool",
-	"looks_like": "gloves_wool",
+    "type": "ARMOR",
+    "copy-from": "gloves_wool",
+    "looks_like": "gloves_wool",
     "name": { "str": "pair of connected wool gloves", "str_pl": "pairs of connected wool gloves" },
     "description": "A thick pair of wool gloves.  Cumbersome, but warm. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -375,8 +373,8 @@
   },
   {
     "id": "connected_gloves_wool_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_wool",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_wool",
     "name": { "str": "pair of connected wool gloves (off)", "str_pl": "pairs of connected wool gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -385,19 +383,19 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
   {
     "id": "connected_xl_gloves_wool",
-	"type": "ARMOR",
+    "type": "ARMOR",
     "copy-from": "connected_gloves_wool",
-	"name": { "str": "pair of connected XL wool gloves", "str_pl": "pairs of connected XL wool gloves" },
-	"proportional": { "weight": 1.4, "volume": 1.4 },
-	"extend": { "flags": [ "OVERSIZE" ] },
+    "name": { "str": "pair of connected XL wool gloves", "str_pl": "pairs of connected XL wool gloves" },
+    "proportional": { "weight": 1.4, "volume": 1.4 },
+    "extend": { "flags": [ "OVERSIZE" ] },
     "use_action": {
       "type": "transform",
       "msg": "You take the gloves off.",
@@ -408,10 +406,10 @@
   },
   {
     "id": "connected_xl_gloves_wool_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_wool_off",
-	"name": { "str": "pair of connected XL wool gloves (off)", "str_pl": "pairs of connected XL wool gloves (off)" },
-	"proportional": { "weight": 1.4, "volume": 1.4 },
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_wool_off",
+    "name": { "str": "pair of connected XL wool gloves (off)", "str_pl": "pairs of connected XL wool gloves (off)" },
+    "proportional": { "weight": 1.4, "volume": 1.4 },
     "use_action": {
       "type": "transform",
       "msg": "You put the gloves on.",
@@ -420,12 +418,11 @@
       "need_worn": true
     }
   },
-  
   {
     "id": "connected_gloves_work",
-	"type": "ARMOR",
-	"copy-from": "gloves_work",
-	"looks_like": "gloves_work",
+    "type": "ARMOR",
+    "copy-from": "gloves_work",
+    "looks_like": "gloves_work",
     "name": { "str": "pair of connected work gloves", "str_pl": "pairs of connected work gloves" },
     "description": "A tough pair of gloves, for tough everyday work. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -438,8 +435,8 @@
   },
   {
     "id": "connected_gloves_work_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_work",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_work",
     "name": { "str": "pair of connected work gloves (off)", "str_pl": "pairs of connected work gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -448,18 +445,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_gloves_wsurvivor",
-	"type": "ARMOR",
-	"copy-from": "gloves_wsurvivor",
-	"looks_like": "gloves_wsurvivor",
+    "type": "ARMOR",
+    "copy-from": "gloves_wsurvivor",
+    "looks_like": "gloves_wsurvivor",
     "name": { "str": "pair of connected winter survivor gloves", "str_pl": "pairs of connected winter survivor gloves" },
     "description": "A pair of customized, Kevlar armored fur gloves, modified to be easy to wear while providing maximum protection under extreme conditions. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -472,8 +468,8 @@
   },
   {
     "id": "connected_gloves_wsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_wsurvivor",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_wsurvivor",
     "name": { "str": "pair of connected winter survivor gloves (off)", "str_pl": "pairs of connected winter survivor gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -482,19 +478,19 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
   {
     "id": "connected_xl_gloves_wsurvivor",
-	"type": "ARMOR",
+    "type": "ARMOR",
     "copy-from": "connected_gloves_wsurvivor",
-	"name": { "str": "pair of connected XL winter survivor gloves", "str_pl": "pairs of connected XL winter survival gloves" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
-	"extend": { "flags": [ "OVERSIZE" ] },
+    "name": { "str": "pair of connected XL winter survivor gloves", "str_pl": "pairs of connected XL winter survival gloves" },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
+    "extend": { "flags": [ "OVERSIZE" ] },
     "use_action": {
       "type": "transform",
       "msg": "You take the gloves off.",
@@ -505,10 +501,13 @@
   },
   {
     "id": "connected_xl_gloves_wsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_wsurvivor_off",
-	"name": { "str": "pair of connected XL winter survivor gloves (off)", "str_pl": "pairs of connected XL winter survivor gloves (off)" },
-	"proportional": { "weight": 1.5, "volume": 1.5 },
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_wsurvivor_off",
+    "name": {
+      "str": "pair of connected XL winter survivor gloves (off)",
+      "str_pl": "pairs of connected XL winter survivor gloves (off)"
+    },
+    "proportional": { "weight": 1.5, "volume": 1.5 },
     "use_action": {
       "type": "transform",
       "msg": "You put the gloves on.",
@@ -517,12 +516,11 @@
       "need_worn": true
     }
   },
-  
   {
     "id": "connected_gloves_xlsurvivor",
-	"type": "ARMOR",
-	"copy-from": "gloves_xlsurvivor",
-	"looks_like": "gloves_xlsurvivor",
+    "type": "ARMOR",
+    "copy-from": "gloves_xlsurvivor",
+    "looks_like": "gloves_xlsurvivor",
     "name": { "str": "pair of connected XL survivor gloves", "str_pl": "pairs of connected XL survivor gloves" },
     "description": "A massive pair of customized, Kevlar armored leather gloves, modified to be easy to wear while providing maximum protection under extreme conditions. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -535,8 +533,8 @@
   },
   {
     "id": "connected_gloves_xlsurvivor_off",
-	"type": "ARMOR",
-	"copy-from": "connected_gloves_xlsurvivor",
+    "type": "ARMOR",
+    "copy-from": "connected_gloves_xlsurvivor",
     "name": { "str": "pair of connected XL survivor gloves (off)", "str_pl": "pairs of connected XL survivor gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -545,18 +543,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_mittens",
-	"type": "ARMOR",
-	"copy-from": "mittens",
-	"looks_like": "mittens",
+    "type": "ARMOR",
+    "copy-from": "mittens",
+    "looks_like": "mittens",
     "name": { "str": "pair of connected mittens", "str_pl": "pairs of connected mittens" },
     "description": "A pair of warm mittens.  They are extremely cumbersome. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -569,8 +566,8 @@
   },
   {
     "id": "connected_mittens_off",
-	"type": "ARMOR",
-	"copy-from": "connected_mittens",
+    "type": "ARMOR",
+    "copy-from": "connected_mittens",
     "name": { "str": "pair of connected mittens (off)", "str_pl": "pairs of connected mittens (off)" },
     "use_action": {
       "type": "transform",
@@ -579,18 +576,17 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   },
-  
   {
     "id": "connected_winter_gloves_army",
-	"type": "ARMOR",
-	"copy-from": "winter_gloves_army",
-	"looks_like": "winter_gloves_army",
+    "type": "ARMOR",
+    "copy-from": "winter_gloves_army",
+    "looks_like": "winter_gloves_army",
     "name": { "str": "pair of connected army winter gloves", "str_pl": "pairs of connected army winter gloves" },
     "description": "A pair of padded gloves.  Favored by the military. These have been tied to the wrists with thread for easy wearing and removal.",
     "use_action": {
@@ -603,8 +599,8 @@
   },
   {
     "id": "connected_winter_gloves_army_off",
-	"type": "ARMOR",
-	"copy-from": "connected_winter_gloves_army",
+    "type": "ARMOR",
+    "copy-from": "connected_winter_gloves_army",
     "name": { "str": "pair of connected army winter gloves (off)", "str_pl": "pairs of connected army winter gloves (off)" },
     "use_action": {
       "type": "transform",
@@ -613,13 +609,10 @@
       "menu_text": "Wear",
       "need_worn": true
     },
-	"warmth": 0,
-	"encumbrance": 5,
-	"environmental_protection": 0,
-	"coverage": 5,
-	"flags":["BELTED"]
+    "warmth": 0,
+    "encumbrance": 5,
+    "environmental_protection": 0,
+    "coverage": 5,
+    "flags": [ "BELTED" ]
   }
-
-
-
 ]
